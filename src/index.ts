@@ -7,7 +7,7 @@ import * as anchor from '@coral-xyz/anchor';
 import * as bs58 from 'bs58';
 import * as dotenv from 'dotenv';
 import { IDL } from './idl/gifter_escrow.js';
-import platformWallet from '../wallet/platform.json';
+import platformWallet from '../wallet/platform.json' assert { type: 'json' };
 
 dotenv.config();
 
