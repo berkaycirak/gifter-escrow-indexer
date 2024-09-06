@@ -1,5 +1,5 @@
 export type GifterEscrow = {
-	address: '5Sbxcm5UTTyKMhB9sNvmSYCwF7FCNVm3wdZkf7fPhWTk';
+	address: '9HP45DvSvMRNmb7KQTDnujtv49oDVNEEH8VCFTmdb5yf';
 	metadata: {
 		name: 'gifterEscrow';
 		version: '0.1.0';
@@ -38,7 +38,7 @@ export type GifterEscrow = {
 							{
 								kind: 'account';
 								path: 'mintA';
-							},
+							}
 						];
 						program: {
 							kind: 'const';
@@ -74,7 +74,7 @@ export type GifterEscrow = {
 								219,
 								233,
 								248,
-								89,
+								89
 							];
 						};
 					};
@@ -99,7 +99,7 @@ export type GifterEscrow = {
 									99,
 									114,
 									111,
-									119,
+									119
 								];
 							},
 							{
@@ -109,7 +109,7 @@ export type GifterEscrow = {
 							{
 								kind: 'arg';
 								path: 'escrowId';
-							},
+							}
 						];
 					};
 				},
@@ -129,7 +129,7 @@ export type GifterEscrow = {
 							{
 								kind: 'account';
 								path: 'mintA';
-							},
+							}
 						];
 						program: {
 							kind: 'const';
@@ -165,7 +165,7 @@ export type GifterEscrow = {
 								219,
 								233,
 								248,
-								89,
+								89
 							];
 						};
 					};
@@ -180,7 +180,7 @@ export type GifterEscrow = {
 				},
 				{
 					name: 'tokenProgram';
-				},
+				}
 			];
 			args: [
 				{
@@ -194,7 +194,7 @@ export type GifterEscrow = {
 				{
 					name: 'makerExpectedPrice';
 					type: 'u64';
-				},
+				}
 			];
 		},
 		{
@@ -225,7 +225,7 @@ export type GifterEscrow = {
 							{
 								kind: 'account';
 								path: 'mintA';
-							},
+							}
 						];
 						program: {
 							kind: 'const';
@@ -261,7 +261,7 @@ export type GifterEscrow = {
 								219,
 								233,
 								248,
-								89,
+								89
 							];
 						};
 					};
@@ -286,7 +286,7 @@ export type GifterEscrow = {
 									99,
 									114,
 									111,
-									119,
+									119
 								];
 							},
 							{
@@ -297,7 +297,7 @@ export type GifterEscrow = {
 								kind: 'account';
 								path: 'gifter_escrow_state.escrow_id';
 								account: 'gifterEscrow';
-							},
+							}
 						];
 					};
 				},
@@ -317,7 +317,7 @@ export type GifterEscrow = {
 							{
 								kind: 'account';
 								path: 'mintA';
-							},
+							}
 						];
 						program: {
 							kind: 'const';
@@ -353,7 +353,7 @@ export type GifterEscrow = {
 								219,
 								233,
 								248,
-								89,
+								89
 							];
 						};
 					};
@@ -368,7 +368,7 @@ export type GifterEscrow = {
 				},
 				{
 					name: 'tokenProgram';
-				},
+				}
 			];
 			args: [];
 		},
@@ -407,7 +407,7 @@ export type GifterEscrow = {
 							{
 								kind: 'account';
 								path: 'mintB';
-							},
+							}
 						];
 						program: {
 							kind: 'const';
@@ -443,7 +443,7 @@ export type GifterEscrow = {
 								219,
 								233,
 								248,
-								89,
+								89
 							];
 						};
 					};
@@ -464,7 +464,7 @@ export type GifterEscrow = {
 							{
 								kind: 'account';
 								path: 'mintA';
-							},
+							}
 						];
 						program: {
 							kind: 'const';
@@ -500,7 +500,7 @@ export type GifterEscrow = {
 								219,
 								233,
 								248,
-								89,
+								89
 							];
 						};
 					};
@@ -521,7 +521,7 @@ export type GifterEscrow = {
 							{
 								kind: 'account';
 								path: 'mintB';
-							},
+							}
 						];
 						program: {
 							kind: 'const';
@@ -557,7 +557,7 @@ export type GifterEscrow = {
 								219,
 								233,
 								248,
-								89,
+								89
 							];
 						};
 					};
@@ -582,7 +582,7 @@ export type GifterEscrow = {
 									99,
 									114,
 									111,
-									119,
+									119
 								];
 							},
 							{
@@ -593,7 +593,7 @@ export type GifterEscrow = {
 								kind: 'account';
 								path: 'gifter_escrow_state.escrow_id';
 								account: 'gifterEscrow';
-							},
+							}
 						];
 					};
 				},
@@ -613,7 +613,7 @@ export type GifterEscrow = {
 							{
 								kind: 'account';
 								path: 'mintA';
-							},
+							}
 						];
 						program: {
 							kind: 'const';
@@ -649,7 +649,7 @@ export type GifterEscrow = {
 								219,
 								233,
 								248,
-								89,
+								89
 							];
 						};
 					};
@@ -664,22 +664,22 @@ export type GifterEscrow = {
 				},
 				{
 					name: 'tokenProgram';
-				},
+				}
 			];
 			args: [];
-		},
+		}
 	];
 	accounts: [
 		{
 			name: 'gifterEscrow';
 			discriminator: [233, 223, 61, 92, 104, 68, 94, 120];
-		},
+		}
 	];
 	events: [
 		{
 			name: 'completeEvent';
 			discriminator: [95, 114, 97, 156, 212, 46, 152, 8];
-		},
+		}
 	];
 	types: [
 		{
@@ -694,7 +694,7 @@ export type GifterEscrow = {
 					{
 						name: 'taker';
 						type: 'pubkey';
-					},
+					}
 				];
 			};
 		},
@@ -726,15 +726,15 @@ export type GifterEscrow = {
 					{
 						name: 'bump';
 						type: 'u8';
-					},
+					}
 				];
 			};
-		},
+		}
 	];
 };
 
 export const IDL: GifterEscrow = {
-	address: '5Sbxcm5UTTyKMhB9sNvmSYCwF7FCNVm3wdZkf7fPhWTk',
+	address: '9HP45DvSvMRNmb7KQTDnujtv49oDVNEEH8VCFTmdb5yf',
 	metadata: {
 		name: 'gifterEscrow',
 		version: '0.1.0',

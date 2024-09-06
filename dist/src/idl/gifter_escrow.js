@@ -1,5 +1,5 @@
 export const IDL = {
-    address: '5Sbxcm5UTTyKMhB9sNvmSYCwF7FCNVm3wdZkf7fPhWTk',
+    address: '9HP45DvSvMRNmb7KQTDnujtv49oDVNEEH8VCFTmdb5yf',
     metadata: {
         name: 'gifterEscrow',
         version: '0.1.0',
